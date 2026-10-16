@@ -1,0 +1,19 @@
+AcousticBrainz feature and metadata values (data/official_sample/,
+data/audio/): CC0.  https://acousticbrainz.org/
+Retained from the low-level JSON sample dump
+acousticbrainz-lowlevel-sample-json-20220623; shared/data/official_sample/
+intake_receipt.json records the original array hashes and the four retained
+descriptor columns (of 2,647).  The archive is a feature source only: it does
+not contain the underlying audio or establish human recording labels.
+
+Raster panel (data/raster_panel.npz): CC BY 4.0, Xuecao Li, Yuyu Zhou, Min Zhao,
+Xia Zhao, https://doi.org/10.1038/s41597-020-0510-y, editions
+https://doi.org/10.6084/m9.figshare.9828827.v2 (prior) and
+https://doi.org/10.6084/m9.figshare.9828827.v10 (current).  The panel holds the
+complete 2,117-cell annual integer sums derived from those pinned editions.
+
+numpy 2.5.3 is an installed external dependency and is not vendored.  No
+extractor binary or model weights are vendored.
+
+No blanket code license was present in the source package; no new license
+grant is inferred over third-party material.

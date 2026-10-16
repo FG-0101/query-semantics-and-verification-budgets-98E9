@@ -1,0 +1,12 @@
+Paper item	Program	Line	Output	Input
+Table 1 (tab:sum)	code/sqlite_semantic_baseline.py	29	results/primary/baseline_receipt.json	data/official_sample/submission_features.npy, submission_metadata.npz; work/queries/uncertainty_queries.json, policy_recordings.npz
+Table 2 (tab:cases)	code/sqlite_targeted_membership.py	17	results/primary/targeted_variable_membership.json	data/official_sample/submission_metadata.npz; results/primary/baseline_receipt.json, baseline.sqlite
+Table 3 (tab:budget)	code/joint_verification_exhaustive.py	43	results/joint_verification/joint_verification.json	results/primary/targeted_variable_membership.json
+Table 4 (tab:cross-budget)	code/experiment.py	136	results/transfer/query_verification_summary.json	data/audio/, data/raster_panel.npz
+Supplement Table A1 (app:m2-vectors-0)	code/experiment.py	126	results/transfer/query_verification_all_cases.json	data/audio/, data/raster_panel.npz
+Supplement Table A2 (app:m2-budgets-0)	code/experiment.py	119	results/transfer/query_verification_all_budgets.json	data/audio/, data/raster_panel.npz
+Supplement Tables A3-A6 (app:m2-vectors-1, app:m2-vectors-2)	code/experiment.py	126	results/transfer/query_verification_all_cases.json	data/audio/, data/raster_panel.npz
+Supplement Tables A4, A6 (app:m2-budgets-1, app:m2-budgets-2)	code/experiment.py	119	results/transfer/query_verification_all_budgets.json	data/audio/, data/raster_panel.npz
+Supplement SQL world checks	code/experiment.py	124	results/transfer/query_verification_SQL_world_checks.json	data/audio/, data/raster_panel.npz
+Supplement global-edition controls	code/controls.py	15	results/transfer/query_verification_global_edition_controls.json	data/raster_panel.npz
+Supplement global-edition summary	code/controls.py	19	results/transfer/query_verification_global_edition_summary.json	data/raster_panel.npz

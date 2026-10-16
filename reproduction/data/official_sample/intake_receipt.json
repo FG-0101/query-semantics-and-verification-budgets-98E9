@@ -1,0 +1,35 @@
+{
+  "source_archive": "acousticbrainz-lowlevel-sample-json-20220623-0.tar.zst",
+  "source_archive_sha256": "8fc3c44c8beed22c075bea954edca3d35927bca0193cbf0a31b07aecfec3db80",
+  "source_url": "https://data.metabrainz.org/pub/musicbrainz/acousticbrainz/dumps/acousticbrainz-sample-json-20220623/acousticbrainz-lowlevel-sample-json-20220623-0.tar.zst",
+  "source_rows": 100000,
+  "source_recordings": 88816,
+  "original_feature_count": 2647,
+  "retained_feature_count": 4,
+  "retained_feature_names": [
+    "lowlevel.average_loudness",
+    "lowlevel.dynamic_complexity",
+    "rhythm.bpm",
+    "lowlevel.spectral_centroid.mean"
+  ],
+  "original_feature_column_indices": [
+    0,
+    298,
+    2181,
+    1861
+  ],
+  "projection": "All 100000 original rows, same order and float32 values; only the four analyzed scalar columns retained. Metadata retains mbid, md5, build, offset and date.",
+  "source_feature_array_sha256": "3ee2804f8d346109fffa10cc07d9d842f220eed7e19fc985ddeb1d6438f23757",
+  "source_metadata_sha256": "fcc5a283b77b0193f40ab96017f7d2e96424796d9c062ba94dfcd4c48d7909d3",
+  "license_url": "https://acousticbrainz.org/",
+  "outputs": {
+    "submission_features.npy": {
+      "bytes": 1600128,
+      "sha256": "106ccaf5f4f005782bd35da2bd8f7ca05e4808c8c2924b4842022a2b9c0b5db9"
+    },
+    "submission_metadata.npz": {
+      "bytes": 5437602,
+      "sha256": "da2ff74f4e5c8a2de60dc7537984f2ee597dca2a76a1ba9e8260d34e80762925"
+    }
+  }
+}

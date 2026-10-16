@@ -1,0 +1,10 @@
+{
+  "OS": "macOS-26.5-arm64-arm-64bit-Mach-O",
+  "Python": "Python 3.14.7",
+  "Third-party Python packages": "numpy 2.5.3",
+  "Measured complete-run seconds": 10.8,
+  "Generated run bytes": 52121951,
+  "CPU seconds per child": 120,
+  "Child priority nice increment": 15,
+  "Random seeds": "Fixed seed 20261011 for the transfer experiment and 20261012 for the global-edition controls; deterministic enumeration or SQLite evaluation elsewhere"
+}
